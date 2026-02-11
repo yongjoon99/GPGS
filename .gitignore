@@ -1,0 +1,8 @@
+*/__pycache__
+data/
+output/
+Point-MAE/inference_results
+Point-MAE/experiments
+refine_model/logs
+refine_model/output
+refine_model/checkpoints

@@ -1,0 +1,4 @@
+# ninja log v5
+4	15596	1751517656617184890	/home/cv/Desktop/yongjoon/RaDe-GS/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	d71e10dd3ae46e19
+0	22018	1751517663056812194	/home/cv/Desktop/yongjoon/RaDe-GS/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	8e8814fab6acafe4
+7	63125	1751517704153433883	/home/cv/Desktop/yongjoon/RaDe-GS/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	bd1242e10eeb8708
