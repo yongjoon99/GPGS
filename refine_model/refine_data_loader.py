@@ -123,7 +123,7 @@ def extract_aligned_patches_test(image, mask, idx, patch_size=16, overlap=2):
 
     y_idx, x_idx = torch.where(mask)
     if y_idx.numel() == 0:
-        return None, None, None, None, None, None
+        return None, None, None, None, None
 
     y_min, y_max = y_idx.min().item(), y_idx.max().item()
     x_min, x_max = x_idx.min().item(), x_idx.max().item()
