@@ -15,7 +15,7 @@ ref_name=598
 
 python train.py -s data/${DATASET}/${SCENE} -m output/${DATASET}/${SCENE} --train_gt 0 --gt_idx $gt_idx
 python render.py -s data/${DATASET}/${SCENE} -m output/${DATASET}/${SCENE} --train_gt 0 --gt_idx $gt_idx
-python train_decompose.py -s data/${DATASET}/${SCENE} -m output/${DATASET}/${SCENE} --train_gt 0 --gt_idx $gt_idx --outlier 0.5
+python train_decompose.py -s data/${DATASET}/${SCENE} -m output/${DATASET}/${SCENE} --train_gt 0 --gt_idx $gt_idx
 python render_depth.py -s data/${DATASET}/${SCENE} -m output/${DATASET}/${SCENE} --train_gt 0 --gt_idx $gt_idx --iteration 300
 python make_ply_from_depth.py -s data/${DATASET}/${SCENE} -m output/${DATASET}/${SCENE} --train_gt 0 --gt_idx $gt_idx --ref_idx $ref_idx
 
